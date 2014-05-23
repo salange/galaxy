@@ -1,0 +1,26 @@
+
+.outer-wrapper {
+  position:absolute; 
+  min-width:640px; 
+  width:100% !important; 
+  height:837px !important; 
+  overflow:hidden; 
+  top:0px; 
+  left:0px;
+}
+
+.middle-wrapper {
+	position:relative; 
+	left:50%; 
+	top:0px; 
+	width:0px; 
+	height:837px;
+}
+
+.inner-wrapper {
+  width:1500px; 
+  left:-750px; 
+  height:600px; 
+  top:120px; 
+  position:relative;
+}
