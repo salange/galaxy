@@ -142,7 +142,7 @@ var Galaxy = window.Galaxy || function(spec)
       // log fps
       var fpsDiv = document.getElementById('fps');
       if (fpsDiv) {
-        fpsDiv.innerHTML = 'FPS: ' + Math.floor(numFrames++ / (timeDiff/1000.)) + ' angularDiff: ' + angularDiff;
+        fpsDiv.innerHTML = 'FPS: ' + Math.floor(numFrames++ / (timeDiff/1000.));
       }
 
       // recalc positions

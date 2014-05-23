@@ -24,3 +24,8 @@
   top:120px; 
   position:relative;
 }
+
+#fps {
+  position: absolute;
+  bottom: 0px;
+}
